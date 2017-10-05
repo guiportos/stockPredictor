@@ -3,6 +3,7 @@ import time
 import matplotlib.pyplot as plt
 from keras.models import load_model
 from keras.preprocessing import sequence
+import tensorflow as tf
 
 def plot_results(predicted_data, true_data, fileName):
 	'''
